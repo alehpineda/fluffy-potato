@@ -1,0 +1,5 @@
+eth_abi
+eth-brownie
+requests
+web3
+websockets
