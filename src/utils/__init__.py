@@ -1,4 +1,4 @@
-def load_secrets(filename: str)-> str:
+def load_secrets(filename: str) -> str:
     """Loads secret file, needs fullpath
 
     Args:
@@ -7,6 +7,6 @@ def load_secrets(filename: str)-> str:
     Returns:
         str: Secret
     """
-    with open(file=filename, mode='r') as file:
+    with open(file=filename, mode="r") as file:
         secret = file.readline()
     return secret

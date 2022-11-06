@@ -1,5 +1,7 @@
 # Brownie
-TEST_ACCOUNT_PASSWD = "/home/deathscythe/Documents/secrets/TEST_ACCOUNT_PASSWD.txt"
+TEST_ACCOUNT_PASSWD = (
+    "/home/deathscythe/Documents/secrets/TEST_ACCOUNT_PASSWD.txt"
+)
 
 # Pulsechain - Tokens
 WPLS_PLS = "0x8a810ea8B121d08342E9e7696f4a9915cBE494B7"
