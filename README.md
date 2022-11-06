@@ -38,7 +38,7 @@ brownie networks add Avalanche avax-main host=https://api.avax.network/ext/bc/C/
 Add PulseChain Testnet 2b to brownie
 
 ```bash
-brownie networks add Pulsechain pls-testnet2b host=https://rpc.v2b.testnet.pulsechain.com explorer=https://scan.v2b.testnet.pulsechain.com chainid=941 name=Testnet2b
+brownie networks add Pulsechain pls-testnet2b host=https://rpc.v2b.testnet.pulsechain.com explorer=https://scan.v2b.testnet.pulsechain.com/api chainid=941 name=Testnet2b
 ```
 
 Check pulsechain
@@ -59,6 +59,12 @@ Start brownie console with pls switch
 ```bash
 brownie console --network pls-testnet2b
 >>>
+```
+
+Start brownie console with ftm-main switch
+
+```bash
+brownie console --network ftm-main
 ```
 
 Load user account in brownie console
@@ -115,10 +121,4 @@ pyenv install --list  # list all python versions available to install
 ```
 
 [Pyenv Tutorial](https://towardsdatascience.com/python-how-to-create-a-clean-learning-environment-with-pyenv-pyenv-virtualenv-pipx-ed17fbd9b790)
-
-3.7.13
-3.8.10
-3.8.13
-3.9.13
-3.10.6
 
